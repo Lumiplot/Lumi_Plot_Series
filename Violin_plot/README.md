@@ -263,11 +263,10 @@ Thin ticks show individual data values along the axis.
 - You need to highlight specific outliers (ticks are easy to miss)
 - The figure is already busy; rugs become visual noise
 
-![Violin with Rug](images/image8.png)
 
 ### 4.3 Grouped vs split violins
 
-![Grouped and Split Violins](images/image9.png)
+![Grouped and Split Violins](images/image8.png)
 
 #### Grouped violins (side-by-side)
 
