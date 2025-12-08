@@ -62,58 +62,6 @@ NN-short-descriptive-title/
 
 ---
 
-## How to use this repo
-
-### 1. Clone and install
-
-```bash
-git clone <this-repo-url>
-cd dataviz
-
-# Option A: plain pip
-pip install -r requirements.txt
-
-# Option B: conda (recommended for scientific work)
-conda create -n lumiplot-series python=3.11
-conda activate lumiplot-series
-pip install -r requirements.txt
-```
-
-**Typical dependencies** (exact list in `requirements.txt`):
-- numpy, pandas
-- matplotlib, seaborn
-- scipy
-- jupyterlab or notebook (optional, for notebooks)
-- lumiplot (if/when it's available as a package)
-
-### 2. Run the scripts
-
-Each folder contains Python scripts that generate the figures used in the article. For example:
-
-```bash
-cd Violin_plot
-python boxplot_violin_demo.py
-python delivery_grouped_split_violin.py
-python raincloud_4cities_overlap.py
-```
-
-Scripts are structured as:
-1. Setup & data loading
-2. Figure generation (exact code used in the article)
-3. Export/save functionality
-
----
-
-## Reproducibility
-
-- All random data generation uses fixed `np.random.seed(...)` calls where relevant.
-- Plots should be reproducible across machines given the same library versions.
-- If a figure in the article looks different from what you get:
-  - Check the versions in `requirements.txt`
-  - Open an issue with a screenshot and your environment details
-
----
-
 ## Using Lumiplot with these examples
 
 Where relevant, you'll find:
