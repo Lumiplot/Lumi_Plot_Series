@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv("delivery_wait_times.csv")
+df = pd.read_csv("../data/delivery_wait_times.csv")
 
 # Set style
 sns.set_style("whitegrid")
@@ -86,7 +86,7 @@ plt.tight_layout()
 plt.subplots_adjust(wspace=0.3)  # Increase horizontal spacing between plots
 
 # Save the plot
-plt.savefig("delivery_grouped_split_violin.png", dpi=150, bbox_inches="tight")
-print("Plot saved as 'delivery_grouped_split_violin.png'")
+plt.savefig("../images/delivery_grouped_split_violin.png", dpi=150, bbox_inches="tight")
+print("Plot saved as '../images/delivery_grouped_split_violin.png'")
 plt.show()
 

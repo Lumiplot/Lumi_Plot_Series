@@ -353,3 +353,20 @@ Lumiplot focuses on drawing the violin that actually answers it.
 
 Try Lumiplot today at [Lumiplot.ai](https://lumiplot.ai/)
 
+---
+
+## Repository Structure
+
+This directory is organized as follows:
+
+- `scripts/` – Python scripts to generate the figures
+  - `boxplot_violin_demo.py`
+  - `delivery_grouped_split_violin.py`
+  - `raincloud_4cities_overlap.py`
+- `data/` – CSV datasets used in the examples
+  - `delivery_wait_times.csv`
+  - `demo_dataset.csv`
+- `images/` – Generated figure images (PNG files)
+- `README.md` – This file (article content and explanations)
+
+To run the scripts, navigate to the `scripts/` directory and update any file paths to reference `../data/` for CSV files and `../images/` for output images.

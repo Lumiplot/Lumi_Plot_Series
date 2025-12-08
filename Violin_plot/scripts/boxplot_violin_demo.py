@@ -139,11 +139,11 @@ plt.ylabel("Value")
 plt.grid(axis='y', alpha=0.3)
 
 plt.subplots_adjust(wspace=0.5)
-plt.savefig("boxplot_violin_comparison.png", dpi=150, bbox_inches='tight')
-print("\nPlot saved as 'boxplot_violin_comparison.png'")
+plt.savefig("../images/boxplot_violin_comparison.png", dpi=150, bbox_inches='tight')
+print("\nPlot saved as '../images/boxplot_violin_comparison.png'")
 plt.show()
 
 # Optional: Save the dataset
-df.to_csv("demo_dataset.csv", index=False)
-print("Dataset saved as 'demo_dataset.csv'")
+df.to_csv("../data/demo_dataset.csv", index=False)
+print("Dataset saved as '../data/demo_dataset.csv'")
 

@@ -6,7 +6,7 @@ from scipy.stats import gaussian_kde  # pip install scipy if needed
 # -------------------------------------------------
 # 1. Load data
 # -------------------------------------------------
-df = pd.read_csv("delivery_wait_times.csv")
+df = pd.read_csv("../data/delivery_wait_times.csv")
 
 cities = ["Berlin", "London", "New York", "Singapore"]
 methods = ["Bike", "Car"]
@@ -100,7 +100,7 @@ legend_handles = [
 ax.legend(handles=legend_handles, loc="lower right")
 
 plt.tight_layout()
-plt.savefig("raincloud_4cities_overlap.png", dpi=150, bbox_inches="tight")
-print("Raincloud plot saved as 'raincloud_4cities_overlap.png'")
+plt.savefig("../images/raincloud_4cities_overlap.png", dpi=150, bbox_inches="tight")
+print("Raincloud plot saved as '../images/raincloud_4cities_overlap.png'")
 plt.show()
 
