@@ -22,18 +22,19 @@ Each directory corresponds to one article in the series:
 
 - `Violin_plot/` – Violin plots vs boxplots tutorial
   - `README.md` – detailed article content and explanations
-  - `*.py` – Python scripts to generate figures
-  - `*.csv` – datasets used in the examples
+  - `scripts/` – Python scripts to generate figures
+  - `data/` – CSV datasets used in the examples
+  - `images/` – generated figure images (PNG files)
 
 Future posts will follow a similar pattern:
 
 ```
 NN-short-descriptive-title/
   README.md
+  scripts/          # Python scripts for figure generation
+  data/             # CSV datasets
+  images/           # exported PNG/SVGs
   notebooks/        # optional – Jupyter notebooks for exploration
-  *.py              # Python scripts for figure generation
-  data/             # or *.csv files in the folder
-  figures/          # optional – exported PNG/SVGs
   prompts/          # optional – Lumiplot or LLM prompts
 ```
 
