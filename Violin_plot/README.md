@@ -8,7 +8,7 @@ It doesn't tell you whether the data are skewed, long-tailed, or quietly bimodal
 
 A violin plot can.
 
-![Violin vs Boxplot Comparison](images/boxplot_violin_comparison.png)
+![Violin vs Boxplot Comparison](images/image1.png)
 
 A violin is essentially a boxplot plus a smoothed distribution, so you can see:
 
@@ -53,7 +53,7 @@ Implementations differ (kernel choice, bandwidth, rescaling rule), so silhouette
 - **Too small bandwidth →** spiky violin that overfits noise
 - **Too large bandwidth →** smooth blob that hides real structure
 
-![Bandwidth Comparison](images/london_bandwidth_comparison.png)
+![Bandwidth Comparison](images/image2.png)
 
 Most plotting libraries choose a default bandwidth, but remember:
 
@@ -82,7 +82,7 @@ If you're used to boxplots, add one extra rule:
 
 > At any given y-value, **width ≈ how common those values are** (the estimated density there).
 
-![Violin with Boxplot Overlay](images/violin_box_bike_styled.png)
+![Violin with Boxplot Overlay](images/image3.png)
 
 ### 2.2 Shape = density
 
@@ -106,7 +106,7 @@ One important caveat: width is **normalized density**, not raw counts. Two violi
 
 In many datasets, the underlying distribution can change dramatically while the boxplots remain identical. You can see this clearly whenever you overlay the "raw" points: clusters appear or vanish, yet the boxes barely move.
 
-![Boxplot vs Violin Comparison](images/two_datasets_comparison.png)
+![Boxplot vs Violin Comparison](images/image4.png)
 
 Violin plots are a good way to show the distribution with more detail than a traditional boxplot. But it's still your job to make sure the KDE and overlays **don't hide important structure**.
 
@@ -187,7 +187,7 @@ This is where style choices really matter. Violins are flexible — which also m
 
 ### 4.1 Orientation: vertical vs horizontal
 
-![Orientation Examples](images/skewed_data_plots_vertical.png)
+![Orientation Examples](images/image5.png)
 
 **Vertical violins**
 
@@ -221,7 +221,7 @@ The violin shows density; a slim boxplot or quartile lines show median and IQR.
 
 - *n* is tiny and boxplots themselves are unstable
 
-![Violin with Boxplot Overlay](images/delivery_violin_grouped_box.png)
+![Violin with Boxplot Overlay](images/image6.png)
 
 #### Violin + jittered points
 
@@ -246,7 +246,7 @@ Points are packed so they don't overlap, forming little columns at repeated valu
 - *n* is large; the swarm becomes wide and noisy
 - The plotting area is narrow and can't afford lateral spread
 
-![Violin with Beeswarm](images/bike_violin_strip_swarm_subset.png)
+![Violin with Beeswarm](images/image7.png)
 
 #### Violin + rug
 
@@ -263,11 +263,11 @@ Thin ticks show individual data values along the axis.
 - You need to highlight specific outliers (ticks are easy to miss)
 - The figure is already busy; rugs become visual noise
 
-![Violin with Rug](images/bike_violin_rug_per_city_fixed.png)
+![Violin with Rug](images/image8.png)
 
 ### 4.3 Grouped vs split violins
 
-![Grouped and Split Violins](images/delivery_grouped_split_violin.png)
+![Grouped and Split Violins](images/image9.png)
 
 #### Grouped violins (side-by-side)
 
@@ -296,7 +296,7 @@ One violin per category, split into left/right halves for two subgroups.
 
 ### 4.4 Raincloud plots
 
-![Raincloud Plot](images/raincloud_4cities_overlap.png)
+![Raincloud Plot](images/image9.png)
 
 A raincloud combines:
 
