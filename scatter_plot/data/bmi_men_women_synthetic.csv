@@ -1,0 +1,122 @@
+country,region,bmi_men,bmi_women
+North-01land,North America,26.3,25.7
+North-02ia,North America,29.1,25.9
+North-03stan,North America,29.2,26.8
+North-04terra,North America,28.6,25.1
+North-05vale,North America,28.7,24.9
+North-06nia,North America,30.4,27.6
+North-07ford,North America,27.6,24.7
+North-08mark,North America,27.1,23.3
+North-09ton,North America,29.2,26.5
+North-10ria,North America,25.9,23.9
+North-11land,North America,31.7,28.2
+North-12ia,North America,27.0,24.3
+Latin-01land,Latin America,29.5,26.5
+Latin-02ia,Latin America,28.1,26.0
+Latin-03stan,Latin America,26.6,24.8
+Latin-04terra,Latin America,27.2,24.9
+Latin-05vale,Latin America,27.4,24.8
+Latin-06nia,Latin America,26.9,25.8
+Latin-07ford,Latin America,28.2,26.5
+Latin-08mark,Latin America,28.2,25.2
+Latin-09ton,Latin America,29.7,29.3
+Latin-10ria,Latin America,27.9,23.9
+Latin-11land,Latin America,27.2,25.8
+Latin-12ia,Latin America,29.7,28.1
+Latin-13stan,Latin America,26.7,25.6
+Latin-14terra,Latin America,30.0,27.4
+Europe-01land,Europe,25.5,22.4
+Europe-02ia,Europe,27.0,22.3
+Europe-03stan,Europe,27.7,24.1
+Europe-04terra,Europe,27.4,24.8
+Europe-05vale,Europe,27.5,25.2
+Europe-06nia,Europe,27.9,26.9
+Europe-07ford,Europe,27.3,26.0
+Europe-08mark,Europe,26.9,24.9
+Europe-09ton,Europe,23.9,22.0
+Europe-10ria,Europe,29.6,26.9
+Europe-11land,Europe,27.0,22.9
+Europe-12ia,Europe,27.3,25.3
+Europe-13stan,Europe,27.4,24.6
+Europe-14terra,Europe,25.8,24.2
+Europe-15vale,Europe,28.7,26.6
+Europe-16nia,Europe,27.6,26.0
+Europe-17ford,Europe,26.2,23.1
+Europe-18mark,Europe,27.5,26.7
+Africa-01land,Africa,26.0,28.0
+Africa-02ia,Africa,24.4,23.9
+Africa-03stan,Africa,22.7,21.5
+Africa-04terra,Africa,23.5,24.0
+Africa-05vale,Africa,24.9,23.3
+Africa-06nia,Africa,22.3,20.4
+Africa-07ford,Africa,22.8,23.1
+Africa-08mark,Africa,24.5,23.9
+Africa-09ton,Africa,21.7,21.0
+Africa-10ria,Africa,26.6,25.2
+Africa-11land,Africa,23.8,24.4
+Africa-12ia,Africa,21.6,20.0
+Africa-13stan,Africa,26.7,25.9
+Africa-14terra,Africa,27.3,27.7
+Africa-15vale,Africa,22.6,22.8
+Africa-16nia,Africa,22.5,21.9
+Africa-17ford,Africa,24.3,25.9
+Africa-18mark,Africa,26.0,25.1
+Middle-01land,Middle East,29.6,30.4
+Middle-02ia,Middle East,29.9,28.6
+Middle-03stan,Middle East,27.5,27.9
+Middle-04terra,Middle East,28.6,26.8
+Middle-05vale,Middle East,30.1,30.9
+Middle-06nia,Middle East,29.6,29.8
+Middle-07ford,Middle East,28.6,28.6
+Middle-08mark,Middle East,26.7,28.4
+Middle-09ton,Middle East,30.7,29.7
+Middle-10ria,Middle East,31.2,31.0
+South-01land,South Asia,25.3,25.5
+South-02ia,South Asia,24.2,24.0
+South-03stan,South Asia,27.3,25.9
+South-04terra,South Asia,25.9,24.1
+South-05vale,South Asia,22.6,22.1
+South-06nia,South Asia,21.1,20.5
+South-07ford,South Asia,21.4,21.5
+South-08mark,South Asia,21.9,21.5
+South-09ton,South Asia,25.8,26.1
+South-10ria,South Asia,23.6,21.4
+South-11land,South Asia,23.3,24.7
+South-12ia,South Asia,24.6,23.6
+East-01land,East Asia,22.3,19.1
+East-02ia,East Asia,22.1,19.7
+East-03stan,East Asia,24.7,23.1
+East-04terra,East Asia,22.2,20.9
+East-05vale,East Asia,21.9,20.3
+East-06nia,East Asia,23.8,22.8
+East-07ford,East Asia,23.2,21.9
+East-08mark,East Asia,23.5,22.0
+East-09ton,East Asia,23.0,21.2
+East-10ria,East Asia,22.3,18.8
+East-11land,East Asia,22.5,20.2
+East-12ia,East Asia,26.1,26.4
+Southeast-01land,Southeast Asia,25.1,22.4
+Southeast-02ia,Southeast Asia,24.8,22.8
+Southeast-03stan,Southeast Asia,22.8,21.7
+Southeast-04terra,Southeast Asia,21.8,19.4
+Southeast-05vale,Southeast Asia,24.3,22.6
+Southeast-06nia,Southeast Asia,24.6,22.2
+Southeast-07ford,Southeast Asia,24.3,22.9
+Southeast-08mark,Southeast Asia,26.6,24.3
+Southeast-09ton,Southeast Asia,24.5,20.7
+Southeast-10ria,Southeast Asia,27.6,26.5
+Southeast-11land,Southeast Asia,24.7,24.6
+Southeast-12ia,Southeast Asia,23.5,23.0
+Oceania-01land,Oceania,31.7,30.0
+Oceania-02ia,Oceania,28.9,28.0
+Oceania-03stan,Oceania,31.6,29.8
+Oceania-04terra,Oceania,28.0,27.1
+Oceania-05vale,Oceania,33.3,31.9
+Oceania-06nia,Oceania,28.2,30.5
+Oceania-07ford,Oceania,29.3,27.7
+Oceania-08mark,Oceania,28.5,26.4
+Gulf-terra,Middle East,34.8,33.6
+Island-mark,Oceania,33.8,31.0
+Coastal-nia,Africa,21.0,28.8
+Metro-ia,Europe,25.1,19.6
+Riceford,East Asia,20.4,20.0
